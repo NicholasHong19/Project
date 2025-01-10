@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fredoka:wght@300..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+    font-family: "Rubik", serif;
+}
+
+header {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.Left a {
+    margin-bottom: 0px;
+    margin-left: 60px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.Left:first-child {
+    margin-left: 30px;
+}
+
+.Right a {
+    margin-bottom: 0px;
+    margin-right: 60px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.Header a {
+    transition: 0.3s;
+}
+
+.Header{
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Header a:visited {
+    background-color: gray;
+    color: white;
+}
+
+.Header a:hover {
+    transition: 0.3s;
+    font-size: 50px;
+}
+
+body{
+    background-color: #444444;
+    color: white;
+    margin: 0px;
+}
+
+body section {
+    display: flex;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Introduction .TheRealIntroductionThatIDontHaveANameFor {
+    font-family: "Rubik", serif;
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+.TheRealIntroductionThatIDontHaveANameFor .stuff {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.TheRealIntroductionThatIDontHaveANameFor .stuff ul {
+    margin-left: 30px;
+}
+
+.TheRealIntroductionThatIDontHaveANameFor .stuff a {
+    font-family: "Fira Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
